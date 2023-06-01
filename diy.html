@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>CakeFace Cake Prices</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous" />
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo_.png" alt="CakeFace Logo" style="height: 120px; width: 120px;"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="cakes.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cakes
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" aria-current="page" href="cakes.html">Cake Prices</a>
+                </li>
+                <li><a class="dropdown-item" href="diy.html">DIY Cakes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="bg.html">Baked Goods</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-but">
+              <a class="btn btn-outline-light" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+    <div class="container d-form">
+      <h1 class="display-5 fw-bold lh-1 mb-3 cake-head">Craft Your Own CakeFace:</h1>
+      <form class="row g-3">
+        <div class="mb-6">
+          <label class="form-label"><h3><b>Pick the following:</b></h3></label>
+        </div>
+      <div class="input-group col-md-6">
+        <label class="input-group-text" for="inputGroupSelect01">Flavor</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">Whipped Chocolate</option>
+          <option value="2">Chocolate Mousse</option>
+          <option value="3">Whipped Vinalla</option>
+          <option value="4">Vinalla Cream</option>
+          <option value="5">Strawberry</option>
+          <option value="6">Matcha</option>
+        </select>
+      </div>
+      <div class="input-group col-md-6">
+        <label class="input-group-text" for="inputGroupSelect01">Color</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color" required>
+      </div>
+      <div class="input-group col-md-6">
+        <label class="input-group-text" for="inputGroupSelect01">Shape</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">Circle</option>
+          <option value="2">Square</option>
+          <option value="3">Triangle</option>
+          <option value="4">Rectangle</option>
+          <option value="5">Cloud</option>
+          <option value="6">Heart</option>
+        </select>
+      </div>
+      <div class="input-group col-md-6">
+        <label class="input-group-text" for="inputGroupSelect01">Tier</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>One [Default]</option>
+          <option value="1">Two</option>
+          <option value="2">Three</option>
+          <option value="3">Four</option>
+          <option value="4">Five</option>
+        </select>
+      </div>
+      <div class="input-group col-md-6">
+        <label class="input-group-text" for="inputGroupSelect01">Aesthetic</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">2-Tone</option>
+          <option value="2">Y2k</option>
+          <option value="3">Barbiecore</option>
+          <option value="4">Superheroes</option>
+          <option value="5">Coquette</option>
+          <option value="6">Cottagecore</option>
+          <option value="7">Fairycore</option>
+          <option value="8">Gothic</option>
+        </select>
+      </div>
+      <div class="input-group col-md-6">
+        <label class="input-group-text" for="inputGroupFile01">Upload a Picture for Referance</label>
+        <input type="file" class="form-control" id="inputGroupFile01">
+      </div>
+      <div class="col-md-6">
+        <label for="exampleFormControlTextarea1" class="form-label"><h5><b>What message would you like on the cake:</b></h5></label>
+        <textarea class="form-control" placeholder="Leave a comment here" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-md-6">
+        <label for="exampleFormControlTextarea1" class="form-label"><h5><b>Any special requests:</b></h5></label>
+        <textarea class="form-control" placeholder="Leave a comment here" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-md-6 cake-btn text-left">
+        <a href="checkout.html" class="btn mb-3 cssbuttons-io-button">
+          <span>Checkout</span>
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+            </svg>
+          </div>
+        </a>
+      </div>
+      </form>
+    </div>
+	
+	<style>
+  .cssbuttons-io-button {
+  background: #f5d7b1;
+  color: rgb(2, 1, 1);
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #f1da8f;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #e99e61;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+</style>
+
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	  <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js" ></script>
+	  
+    <footer class="pt-4" style="background-color: #333333;">
+		<div class="container">
+		  <div class="row">
+			<div class="col-12 col-md-4">
+			  <img class="mb-2" src="img/Logo_.png" alt="" width="60" height="60">
+			  <small class="d-block mb-3 text-light">&copy; 2023 Shedekatul Apsora</small>
+			</div>
+			<div class="col-6 col-md-2">
+			  <h5 class="text-light">Shop</h5>
+			  <ul class="list-unstyled text-small">
+				<li class="mb-1"><a class="link-light text-decoration-none" href="cakes.html">Cakes</a></li>
+				<li class="mb-1"><a class="link-light text-decoration-none" href="bg.html">Baked Goods</a></li>
+			  </ul>
+			</div>
+			<div class="col-6 col-md-2">
+			  <h5 class="text-light">Craft</h5>
+			  <ul class="list-unstyled text-small">
+				<li class="mb-1"><a class="link-light text-decoration-none" href="diy.html">Make Your Own Cake</a></li>
+			  </ul>
+			</div>
+			<div class="col-6 col-md-4">
+			  <h5 class="text-light">Hire Us to Cater</h5>
+			  <ul class="list-unstyled text-small">
+				<li class="mb-1"><a class="link-light text-decoration-none" href="contact.html">Contact Page</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+</body>
+</html>

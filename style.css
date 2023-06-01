@@ -1,0 +1,193 @@
+
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {  
+  background: linear-gradient(to bottom, #ebead0, #f7d8be, #eccbaf, #ffd6b4ee, #ffe7bbea );
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body:before{
+  content:'';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(to right bottom, rgba(238, 151, 151, 0.2), #ecd79b3b 75%);
+}
+
+.nav-item{
+  font-size: larger;
+}
+
+.navbar .navbar-nav .nav-item a{
+  padding: 15px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.navbar .navbar-nav .nav-but{
+  padding: 10px;
+}
+
+  
+.c-item{
+  position: relative;
+  height: 600px;
+}
+
+.c-img{
+  height:100%;
+  object-fit: cover;
+}
+
+.Origin {
+  background: #f0d88886;
+  color: black;
+}
+
+.f1 {
+  font-family: 'Righteous', cursive;
+  margin: 0 auto;
+}
+
+.btn{
+  font-family: 'Manrope', sans-serif;
+}
+
+.lead{
+  font-family: 'Manrope', sans-serif;
+}
+
+.f2{
+  font-family: 'Righteous', cursive;
+}
+
+.card-text{
+  font-family: 'Manrope', sans-serif;
+}
+
+.card {
+  margin: 10px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.card-body{
+  font-family: 'Manrope', sans-serif;
+}
+
+.d-flex.justify-content-center {
+  display: flex;
+  justify-content: center; 
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.cake-head{
+  padding: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+.font-size-adjustable {
+  font-size: 20px;
+  color: #000000;
+  }
+
+
+.d-form{
+  background: url("img/f4.jpg");
+  background-size: cover;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.con-form{
+  background: url("img/f2.jpg");
+  background-size: cover;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.check-form{
+  background: url("img/f3.jpg");
+  background-size: cover;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
+.cake-btn{
+  position: relative;}
+
+.bear{
+  position: relative;
+  top: 30px;
+}
+  
+
+@media (max-width: 767px) {
+  body{
+  overflow-x: hidden;
+  }
+  
+  header{
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .nav-item{
+  font-size: medium;
+  }
+  
+  .navbar .navbar-nav .nav-item a{
+  padding: 10px;
+  }
+  
+  .navbar .navbar-nav .nav-but{
+  padding: 5px;
+  }
+  
+  .c-item{
+  height: 400px;
+  }
+  
+  .pc {
+     width: 15rem;
+  }
+
+  .btn-sm{
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .card-img-top {
+  height: 18rem;
+  object-fit: cover;
+  }
+  
+  .cake-head{
+  font-size: xx-large;
+  padding: 20px;
+  text-align: center;
+  }
+  }

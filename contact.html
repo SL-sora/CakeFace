@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <title>CakeFace Cake Prices</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous" />
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/Logo_.png" alt="CakeFace Logo" style="height: 120px; width: 120px;"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="cakes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cakes
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="cakes.html">Cake Prices</a>
+                </li>
+                <li><a class="dropdown-item" href="diy.html">DIY Cakes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bg.html">Baked Goods</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-but">
+              <a class="btn btn-outline-light" aria-current="page" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+    <div class="container con-form">
+      <h1 class="display-5 fw-bold lh-1 mb-3 cake-head">Contact Us:</h1>
+      <form action="contractthanks.html" class="row g-3">
+        <div class="row g-2">
+          <label for="firstName" class="form-label"><b>Name:</b></label>
+          <div class="col">
+            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First name" aria-label="First name" pattern="[a-zA-Z]+" required>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last name" aria-label="Last name" pattern="[a-zA-Z]+" required>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label"><b>Email:</b></label>
+          <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="abc@email.com" pattern="[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-\.]+\.[a-zA-Z]{2,5}" required>
+        </div>
+        <div class="col-md-12">
+          <label for="exampleFormControlTextarea1" class="form-label"><b>Message:</b></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="message" placeholder="Enter your message." rows="3" pattern="[a-zA-Z]+" required></textarea>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn mb-3 cssbuttons-io-button">
+            <a href="#" style="text-decoration: none; color:black;"><span>Contact Us</span></a>
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container text-center bear">
+      <img src="img/bear.png">
+      <img src="img/bear2.png"> 
+    </div>
+
+    <style>
+      .cssbuttons-io-button {
+      background: #f8e8d5;
+      color: rgb(2, 1, 1);
+      font-family: inherit;
+      padding: 0.35em;
+      padding-left: 1.2em;
+      font-size: 17px;
+      font-weight: 500;
+      border-radius: 0.9em;
+      border: none;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      box-shadow: inset 0 0 1.6em -0.6em #f5b8f0;
+      overflow: hidden;
+      position: relative;
+      height: 2.8em;
+      padding-right: 3.3em;
+    }
+    
+    .cssbuttons-io-button .icon {
+      background: white;
+      margin-left: 1em;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 2.2em;
+      width: 2.2em;
+      border-radius: 0.7em;
+      box-shadow: 0.1em 0.1em 0.6em 0.2em #f1da8f;
+      right: 0.3em;
+      transition: all 0.3s;
+    }
+    
+    .cssbuttons-io-button:hover .icon {
+      width: calc(100% - 0.6em);
+    }
+    
+    .cssbuttons-io-button .icon svg {
+      width: 1.1em;
+      transition: transform 0.3s;
+      color: #b9b752;
+    }
+    
+    .cssbuttons-io-button:hover .icon svg {
+      transform: translateX(0.1em);
+    }
+    
+    .cssbuttons-io-button:active .icon {
+      transform: scale(0.95);
+    }
+    </style>
+    
+	
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	  
+	  <footer class="pt-4" style="background-color: #333333;">
+		<div class="container">
+		  <div class="row">
+			<div class="col-12 col-md-4">
+			  <img class="mb-2" src="img/Logo_.png" alt="" width="60" height="60">
+			  <small class="d-block mb-3 text-light">&copy; 2023 Shedekatul Apsora</small>
+			</div>
+			<div class="col-6 col-md-2">
+			  <h5 class="text-light">Shop</h5>
+			  <ul class="list-unstyled text-small">
+				<li class="mb-1"><a class="link-light text-decoration-none" href="cakes.html">Cakes</a></li>
+				<li class="mb-1"><a class="link-light text-decoration-none" href="bg.html">Baked Goods</a></li>
+			  </ul>
+			</div>
+			<div class="col-6 col-md-2">
+			  <h5 class="text-light">Craft</h5>
+			  <ul class="list-unstyled text-small">
+				<li class="mb-1"><a class="link-light text-decoration-none" href="diy.html">Make Your Own Cake</a></li>
+			  </ul>
+			</div>
+			<div class="col-6 col-md-4">
+			  <h5 class="text-light">Hire Us to Cater</h5>
+			  <ul class="list-unstyled text-small">
+				<li class="mb-1"><a class="link-light text-decoration-none" href="contact.html">Contact Page</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+</body>
+</html>
